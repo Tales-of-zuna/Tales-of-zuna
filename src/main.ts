@@ -2,8 +2,9 @@
 // Usage: GH_TOKEN=... GH_LOGIN=<user> node src/main.ts
 
 import { mkdir, writeFile } from "node:fs/promises";
-import { fetchProfile } from "./github.ts";
-import { themes } from "./theme.ts";
+import { fetchProfile, type Profile } from "./github.ts";
+import { row } from "./svg.ts";
+import { themes, type Theme } from "./theme.ts";
 import { renderActivity } from "./cards/activity.ts";
 import { renderLanguages } from "./cards/languages.ts";
 import { renderSkyline } from "./cards/skyline.ts";
@@ -16,9 +17,9 @@ if (!token || !login) {
   process.exit(1);
 }
 
-const cards = {
-  stats: renderStats,
-  languages: renderLanguages,
+const cards: Record<string, (profile: Profile, theme: Theme) => string> = {
+  overview: (profile, theme) =>
+    row("GitHub stats and most used languages", 10, [renderStats(profile, theme), renderLanguages(profile, theme)]),
   skyline: renderSkyline,
   activity: renderActivity,
 };
