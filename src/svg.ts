@@ -48,6 +48,30 @@ export function rampAt(ramp: string[], t: number): string {
   return mix(ramp[i]!, ramp[i + 1]!, x - i);
 }
 
+/**
+ * Places rendered cards side by side in one SVG so the row scales as a unit
+ * instead of wrapping when the README column is narrower than the cards.
+ */
+export function row(title: string, gap: number, cards: string[]): string {
+  const sizes = cards.map((svg) => {
+    const match = /<svg[^>]*\swidth="([\d.]+)"\s+height="([\d.]+)"/.exec(svg);
+    if (!match) throw new Error("row() expects cards rendered by document()");
+    return { width: Number(match[1]), height: Number(match[2]) };
+  });
+  const width = sizes.reduce((sum, s) => sum + s.width, 0) + gap * (cards.length - 1);
+  const height = Math.max(...sizes.map((s) => s.height));
+  let x = 0;
+  const placed = cards.map((svg, i) => {
+    const g = `<g transform="translate(${x} 0)">${svg}</g>`;
+    x += sizes[i]!.width + gap;
+    return g;
+  });
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" role="img" aria-label="${escape(title)}">
+${placed.join("\n")}
+</svg>
+`;
+}
+
 /** Wraps card content in a themed, accessible SVG document with a rounded surface. */
 export function document(opts: {
   theme: Theme;

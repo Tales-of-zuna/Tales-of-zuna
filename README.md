@@ -1,12 +1,8 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Tales-of-zuna/Tales-of-zuna/output/stats-dark.svg" />
-  <img src="https://raw.githubusercontent.com/Tales-of-zuna/Tales-of-zuna/output/stats-light.svg" height="180" alt="Contribution stats and streaks" />
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Tales-of-zuna/Tales-of-zuna/output/languages-dark.svg" />
-  <img src="https://raw.githubusercontent.com/Tales-of-zuna/Tales-of-zuna/output/languages-light.svg" height="180" alt="Most used languages" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Tales-of-zuna/Tales-of-zuna/output/overview-dark.svg" />
+  <img src="https://raw.githubusercontent.com/Tales-of-zuna/Tales-of-zuna/output/overview-light.svg" width="900" alt="Contribution stats, streaks and most used languages" />
 </picture>
 
 <picture>
