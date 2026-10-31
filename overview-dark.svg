@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="240" viewBox="0 0 900 240" role="img" aria-label="GitHub stats and most used languages">
+<g transform="translate(0 0)"><svg xmlns="http://www.w3.org/2000/svg" width="560" height="240" viewBox="0 0 560 240" role="img" aria-labelledby="title desc">
+<title id="title">Tales-of-zuna&#39;s GitHub stats</title>
+<desc id="desc">3,513 total contributions since 2020. Current streak 4 days, longest streak 11 days.</desc>
+<style>
+text { font-family: -apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif; fill: #e6edf3; }
+.secondary { fill: #c9d1d9; }
+.muted { fill: #8b949e; }
+.heading { font-size: 15px; font-weight: 600; }
+@keyframes fade-up { from { opacity: 0; transform: translateY(6px); } }
+@keyframes fade { from { opacity: 0; } }
+.fade-up { animation: fade-up .6s ease-out both; }
+.fade { animation: fade .8s ease-out both; }
+
+@keyframes ring { from { stroke-dasharray: 0 100; } }
+.ring { animation: ring 1.4s cubic-bezier(.33,1,.68,1) .3s both; }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+<rect x="0.5" y="0.5" width="559" height="239" rx="10" fill="#0d1117" stroke="#30363d"/>
+
+<line x1="186.66666666666666" y1="48" x2="186.66666666666666" y2="172" stroke="#21262d"/>
+<line x1="373.3333333333333" y1="48" x2="373.3333333333333" y2="172" stroke="#21262d"/>
+<circle cx="280" cy="88" r="38" fill="none" stroke="#21262d" stroke-width="6"/>
+<circle class="ring" cx="280" cy="88" r="38" fill="none" stroke="#3987e5" stroke-width="6" stroke-linecap="round" pathLength="100" stroke-dasharray="36.36 100" transform="rotate(-90 280 88)"/>
+<g class="fade-up" style="animation-delay:150ms">
+  <text x="93.33333333333333" y="100" text-anchor="middle" font-size="30" font-weight="700">3,513</text>
+  <text x="93.33333333333333" y="152" text-anchor="middle" font-size="13" font-weight="600" class="secondary">Total contributions</text>
+  <text x="93.33333333333333" y="171" text-anchor="middle" font-size="11.5" class="muted">2020 – Present</text>
+</g>
+<g class="fade-up" style="animation-delay:270ms">
+  <text x="280" y="99" text-anchor="middle" font-size="30" font-weight="700">4</text>
+  <text x="280" y="152" text-anchor="middle" font-size="13" font-weight="600" class="secondary">Current streak</text>
+  <text x="280" y="171" text-anchor="middle" font-size="11.5" class="muted">Oct 26 – Oct 29, 2026</text>
+</g>
+<g class="fade-up" style="animation-delay:390ms">
+  <text x="466.66666666666663" y="100" text-anchor="middle" font-size="30" font-weight="700">11</text>
+  <text x="466.66666666666663" y="152" text-anchor="middle" font-size="13" font-weight="600" class="secondary">Longest streak</text>
+  <text x="466.66666666666663" y="171" text-anchor="middle" font-size="11.5" class="muted">Apr 8 – Apr 18, 2025</text>
+</g>
+<line x1="24" y1="192" x2="536" y2="192" stroke="#21262d"/>
+<g class="fade" style="animation-delay:600ms">
+  <text x="93.33333333333333" y="212" text-anchor="middle" font-size="15" font-weight="700">2,351</text>
+  <text x="93.33333333333333" y="228" text-anchor="middle" font-size="10.5" class="muted">Contributions · 12mo</text>
+</g>
+<g class="fade" style="animation-delay:680ms">
+  <text x="280" y="212" text-anchor="middle" font-size="15" font-weight="700">219</text>
+  <text x="280" y="228" text-anchor="middle" font-size="10.5" class="muted">Active days · 12mo</text>
+</g>
+<g class="fade" style="animation-delay:760ms">
+  <text x="466.66666666666663" y="212" text-anchor="middle" font-size="15" font-weight="700">124</text>
+  <text x="466.66666666666663" y="228" text-anchor="middle" font-size="10.5" class="muted">Repositories</text>
+</g>
+</svg>
+</g>
+<g transform="translate(570 0)"><svg xmlns="http://www.w3.org/2000/svg" width="330" height="240" viewBox="0 0 330 240" role="img" aria-labelledby="title desc">
+<title id="title">Most used languages</title>
+<desc id="desc">TypeScript 41.2%, Go 17.3%, JavaScript 12.1%, Kotlin 10.6%, CSS 7.3%, Other 11.5%</desc>
+<style>
+text { font-family: -apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif; fill: #e6edf3; }
+.secondary { fill: #c9d1d9; }
+.muted { fill: #8b949e; }
+.heading { font-size: 15px; font-weight: 600; }
+@keyframes fade-up { from { opacity: 0; transform: translateY(6px); } }
+@keyframes fade { from { opacity: 0; } }
+.fade-up { animation: fade-up .6s ease-out both; }
+.fade { animation: fade .8s ease-out both; }
+@keyframes s0 { from { stroke-dasharray: 0 100; } }
+@keyframes s1 { from { stroke-dasharray: 0 100; } }
+@keyframes s2 { from { stroke-dasharray: 0 100; } }
+@keyframes s3 { from { stroke-dasharray: 0 100; } }
+@keyframes s4 { from { stroke-dasharray: 0 100; } }
+@keyframes s5 { from { stroke-dasharray: 0 100; } }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+<rect x="0.5" y="0.5" width="329" height="239" rx="10" fill="#0d1117" stroke="#30363d"/>
+
+<text x="22" y="34" class="heading">Most used languages</text>
+<circle cx="92" cy="136" r="58" fill="none" stroke="#21262d" stroke-width="16"/>
+<circle cx="92" cy="136" r="58" fill="none" stroke="#3987e5" stroke-width="16" pathLength="100" stroke-dasharray="40.63 100" stroke-dashoffset="0" transform="rotate(-90 92 136)" style="animation: s0 495ms linear 200ms both"/>
+<circle cx="92" cy="136" r="58" fill="none" stroke="#d95926" stroke-width="16" pathLength="100" stroke-dasharray="16.66 100" stroke-dashoffset="-41.23" transform="rotate(-90 92 136)" style="animation: s1 207ms linear 695ms both"/>
+<circle cx="92" cy="136" r="58" fill="none" stroke="#199e70" stroke-width="16" pathLength="100" stroke-dasharray="11.53 100" stroke-dashoffset="-58.49" transform="rotate(-90 92 136)" style="animation: s2 146ms linear 902ms both"/>
+<circle cx="92" cy="136" r="58" fill="none" stroke="#c98500" stroke-width="16" pathLength="100" stroke-dasharray="10.01 100" stroke-dashoffset="-70.63" transform="rotate(-90 92 136)" style="animation: s3 127ms linear 1048ms both"/>
+<circle cx="92" cy="136" r="58" fill="none" stroke="#d55181" stroke-width="16" pathLength="100" stroke-dasharray="6.7 100" stroke-dashoffset="-81.23" transform="rotate(-90 92 136)" style="animation: s4 88ms linear 1175ms both"/>
+<circle cx="92" cy="136" r="58" fill="none" stroke="#484f58" stroke-width="16" pathLength="100" stroke-dasharray="10.86 100" stroke-dashoffset="-88.54" transform="rotate(-90 92 136)" style="animation: s5 138ms linear 1262ms both"/>
+<g class="fade" style="animation-delay:500ms">
+  <text x="92" y="138" text-anchor="middle" font-size="22" font-weight="700">22</text>
+  <text x="92" y="155" text-anchor="middle" font-size="11" class="muted">languages</text>
+</g>
+<g class="fade-up" style="animation-delay:300ms">
+  <circle cx="190" cy="70" r="5" fill="#3987e5"/>
+  <text x="203" y="74" font-size="12.5" class="secondary">TypeScript</text>
+  <text x="308" y="74" text-anchor="end" font-size="12.5" font-weight="600">41.2%</text>
+</g>
+<g class="fade-up" style="animation-delay:390ms">
+  <circle cx="190" cy="96" r="5" fill="#d95926"/>
+  <text x="203" y="100" font-size="12.5" class="secondary">Go</text>
+  <text x="308" y="100" text-anchor="end" font-size="12.5" font-weight="600">17.3%</text>
+</g>
+<g class="fade-up" style="animation-delay:480ms">
+  <circle cx="190" cy="122" r="5" fill="#199e70"/>
+  <text x="203" y="126" font-size="12.5" class="secondary">JavaScript</text>
+  <text x="308" y="126" text-anchor="end" font-size="12.5" font-weight="600">12.1%</text>
+</g>
+<g class="fade-up" style="animation-delay:570ms">
+  <circle cx="190" cy="148" r="5" fill="#c98500"/>
+  <text x="203" y="152" font-size="12.5" class="secondary">Kotlin</text>
+  <text x="308" y="152" text-anchor="end" font-size="12.5" font-weight="600">10.6%</text>
+</g>
+<g class="fade-up" style="animation-delay:660ms">
+  <circle cx="190" cy="174" r="5" fill="#d55181"/>
+  <text x="203" y="178" font-size="12.5" class="secondary">CSS</text>
+  <text x="308" y="178" text-anchor="end" font-size="12.5" font-weight="600">7.3%</text>
+</g>
+<g class="fade-up" style="animation-delay:750ms">
+  <circle cx="190" cy="200" r="5" fill="#484f58"/>
+  <text x="203" y="204" font-size="12.5" class="secondary">Other</text>
+  <text x="308" y="204" text-anchor="end" font-size="12.5" font-weight="600">11.5%</text>
+</g>
+</svg>
+</g>
+</svg>
